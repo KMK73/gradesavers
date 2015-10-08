@@ -21,4 +21,5 @@ do_action( 'foundationpress_before_searchform' ); ?>
 		<?php do_action( 'foundationpress_searchform_after_search_button' ); ?>
 	</div>
 </form>
+
 <?php do_action( 'foundationpress_after_searchform' ); ?>
