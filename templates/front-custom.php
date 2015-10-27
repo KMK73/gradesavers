@@ -19,7 +19,7 @@ get_header(); ?>
     </header>
 
 
-<!--full width class services for background panel-->
+    <!--full width class services for background panel-->
     <div class="services">
         <div class="row">
             <div class="small-12 large-12 columns" role="main">
@@ -38,24 +38,24 @@ get_header(); ?>
                                             <!--   SERVICES text full width of page inside custom field plugin -->
                                             <div class="row">
                                                 <div class="small-12 large-6 columns">
-                                                    <h4><?php the_field('help_paper_header');?></h4>
+                                                     <i class="fa fa-file-word-o fa-3x"></i><h4><?php the_field('help_paper_header');?></h4>
                                                     <p>
                                                         <?php the_field('help_with_paper'); ?>
                                                     </p>
 
-                                                    <h4><?php the_field('math_tutor_header');?></h4>
+                                                   <i class="fa fa-calculator fa-3x"></i><h4><?php the_field('math_tutor_header');?></h4>
                                                     <p>
                                                         <?php the_field('math_tutor_text'); ?>
                                                     </p>
                                                 </div>
 
                                                 <div class="small-12 large-6 columns">
-                                                    <h4><?php the_field('services_three_header');?></h4>
+                                                    <i class="fa fa-calendar fa-3x"></i> <h4><?php the_field('services_three_header');?></h4>
                                                     <p>
                                                         <?php the_field('services_three_text'); ?>
                                                     </p>
 
-                                                    <h4><?php the_field('services_four_header');?></h4>
+                                                    <i class="fa fa-book fa-3x"></i><h4><?php the_field('services_four_header');?></h4>
                                                     <p>
                                                         <?php the_field('services_four_text'); ?>
                                                     </p>
